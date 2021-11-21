@@ -1,0 +1,82 @@
+
+
+.form-container{
+    border:2px solid #777;
+    display: flex;
+    width: 100%;
+    height: 110px;
+    position:relative;
+    background-color: #444;
+    margin-top:0;
+    
+}
+
+.form-task {
+    min-width: 400px;
+    flex:1;
+    text-align: center;
+    padding:10px;
+}
+
+.label-task{
+display:inline;
+padding:15px;
+}
+
+.input-task {
+  
+    font-size:17px;
+    margin:2px auto;
+    width: 300px;
+    height: 35px;
+    outline:none;
+    padding:4px;
+    top:0px;
+    flex:1;
+    background: transparent;
+    color:#222;
+    border:none;
+    border-bottom: 1px solid #179;
+}
+#btn-submit   {
+    padding:5px;
+    margin:10px auto;
+    width: 100px;
+    font-size: 15px;
+    color:#000;
+    background: #168;
+    border:none;
+    text-decoration: none;
+    border-radius:3px;
+    outline:none
+}
+
+#btn-edit{
+    padding:5px;
+    background-color: #168;
+    border:1px solid #fff;
+ 
+    outline:none;
+    border-radius: 2px;
+}
+#btn-delete{
+    padding:5px;
+    background-color: #c23;
+    border:1px solid #aaa;
+    outline:none;
+    border-radius: 2px;
+}
+
+.novisible{
+    display:none
+}
+
+.visible{
+    display:block;
+}
+
+.nav{
+    background-color: #168;
+    color:#444;
+}
+
